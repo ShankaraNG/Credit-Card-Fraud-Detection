@@ -1,0 +1,294 @@
+2026-03-08 04:05:13,082 | Router | INFO | Getting the loaded model
+2026-03-08 04:05:13,082 | Router | INFO | Model retieved from the cache successfully
+2026-03-08 04:05:13,087 | Router | INFO | Data request recieved successfully
+2026-03-08 04:05:13,135 | Router | INFO | requested data:        Time        V1        V2        V3        V4        V5        V6  ...       V23       V24       V25       V26       V27       V28  Amount
+0     406.0 -2.312227  1.951992 -1.609851  3.997906 -0.522188 -1.426545  ... -0.465211  0.320198  0.044519  0.177840  0.261145 -0.143276    0.00
+1  100000.0 -1.359807 -0.072781  2.536347  1.378155 -0.338321  0.462388  ... -0.110474  6.066928  0.128539 -0.189115  0.133558 -0.021053  149.62
+2     472.0 -3.043541 -3.157307  1.088463  2.288644  1.359805 -1.064823  ...  1.375966 -0.293803  0.279798 -0.145362 -0.252773  0.035764  529.00
+3    7526.0  0.008430  4.137837 -6.238699  6.681959  1.487356 -2.455610  ... -0.539528  0.128940  1.488481  0.507963  0.735822  0.513574    1.00
+
+[4 rows x 30 columns]
+2026-03-08 04:05:13,135 | Router | INFO | Cleaning the data
+2026-03-08 04:05:13,135 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:05:13,137 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:05:13,145 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:05:13,145 | Router | INFO | Data has been cleaned
+2026-03-08 04:05:13,145 | Router | INFO | Predicting the from the data
+2026-03-08 04:05:13,187 | Router | INFO | Completed predictions
+2026-03-08 04:05:13,187 | Router | INFO | adding to the result
+2026-03-08 04:05:13,187 | Router | INFO | Predictions: [{'prediction': 'Fraud', 'fraud_probability': 0.899}, {'prediction': 'Good', 'fraud_probability': 0.0547}, {'prediction': 'Fraud', 'fraud_probability': 0.8558}, {'prediction': 'Fraud', 'fraud_probability': 0.9992}]
+2026-03-08 04:05:13,188 | Router | INFO | Request completed successfully
+2026-03-08 04:06:16,651 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:16,653 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:18,006 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:18,009 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:18,009 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:18,009 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:18,807 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:18,832 | Main App | INFO | Loading the model
+2026-03-08 04:06:18,832 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:18,834 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:18,834 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:18,834 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:18,851 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:18,851 | Main App | INFO | model has been loaded
+2026-03-08 04:06:26,889 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:26,890 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:28,187 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:28,190 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:28,190 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:28,190 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:29,033 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:29,058 | Main App | INFO | Loading the model
+2026-03-08 04:06:29,058 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:29,060 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:29,060 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:29,060 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:29,077 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:29,077 | Main App | INFO | model has been loaded
+2026-03-08 04:06:30,291 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:30,293 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:30,294 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:30,294 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:31,105 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:31,131 | Main App | INFO | Loading the model
+2026-03-08 04:06:31,131 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:31,133 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:31,133 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:31,133 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:31,149 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:31,149 | Main App | INFO | model has been loaded
+2026-03-08 04:06:33,819 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:33,820 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:35,077 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:35,080 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:35,080 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:35,080 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:35,866 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:35,890 | Main App | INFO | Loading the model
+2026-03-08 04:06:35,890 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:35,892 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:35,892 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:35,893 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:35,909 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:35,909 | Main App | INFO | model has been loaded
+2026-03-08 04:06:47,641 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:47,642 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:48,928 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:48,930 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:48,931 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:48,931 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:49,897 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:49,940 | Main App | INFO | Loading the model
+2026-03-08 04:06:49,940 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:49,944 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:49,944 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:49,944 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:49,962 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:49,963 | Main App | INFO | model has been loaded
+2026-03-08 04:06:50,288 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:50,290 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:51,557 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:51,559 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:51,559 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:51,560 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:52,385 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:52,410 | Main App | INFO | Loading the model
+2026-03-08 04:06:52,410 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:52,412 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:52,412 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:52,412 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:52,429 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:52,429 | Main App | INFO | model has been loaded
+2026-03-08 04:06:52,868 | Main App | INFO | Shutting down the application
+2026-03-08 04:06:52,869 | Main App | INFO | Model state has been deleted
+2026-03-08 04:06:54,113 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:54,117 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:54,117 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:54,117 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:54,896 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:54,920 | Main App | INFO | Loading the model
+2026-03-08 04:06:54,921 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:54,923 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:54,923 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:54,924 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:54,940 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:54,940 | Main App | INFO | model has been loaded
+2026-03-08 04:06:56,202 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:56,204 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:56,205 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:56,205 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:57,027 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:57,055 | Main App | INFO | Loading the model
+2026-03-08 04:06:57,055 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:06:57,058 | Model Loader | INFO | Getting the path
+2026-03-08 04:06:57,058 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:06:57,058 | Model Loader | INFO | Loading the model
+2026-03-08 04:06:57,074 | Model Loader | INFO | Model Loaded
+2026-03-08 04:06:57,075 | Main App | INFO | model has been loaded
+2026-03-08 04:07:02,988 | Main App | INFO | Shutting down the application
+2026-03-08 04:07:02,990 | Main App | INFO | Model state has been deleted
+2026-03-08 04:07:05,112 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:05,115 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:05,115 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:05,116 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:05,920 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:05,945 | Main App | INFO | Loading the model
+2026-03-08 04:07:05,945 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:05,947 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:05,947 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:05,947 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:05,963 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:05,964 | Main App | INFO | model has been loaded
+2026-03-08 04:07:07,180 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:07,185 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:07,185 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:07,185 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:07,970 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:07,994 | Main App | INFO | Loading the model
+2026-03-08 04:07:07,994 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:07,996 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:07,996 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:07,996 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:08,013 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:08,013 | Main App | INFO | model has been loaded
+2026-03-08 04:07:14,817 | Main App | INFO | Shutting down the application
+2026-03-08 04:07:14,819 | Main App | INFO | Model state has been deleted
+2026-03-08 04:07:18,055 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:18,058 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:18,058 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:18,058 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:18,865 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:18,891 | Main App | INFO | Loading the model
+2026-03-08 04:07:18,891 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:18,893 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:18,893 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:18,894 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:18,910 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:18,910 | Main App | INFO | model has been loaded
+2026-03-08 04:07:30,758 | Router | INFO | Getting the loaded model
+2026-03-08 04:07:30,758 | Router | INFO | Model retieved from the cache successfully
+2026-03-08 04:07:30,759 | Router | INFO | Data request recieved successfully
+2026-03-08 04:07:30,787 | Router | INFO | requested data:         Time        V1        V2        V3        V4        V5        V6  ...       V23       V24       V25       V26       V27       V28  Amount
+0     406.0 -2.312227  1.951992 -1.609851  3.997906 -0.522188 -1.426545  ... -0.465211  0.320198  0.044519  0.177840  0.261145 -0.143276    0.00
+1  100000.0 -1.359807 -0.072781  2.536347  1.378155 -0.338321  0.462388  ... -0.110474  6.066928  0.128539 -0.189115  0.133558 -0.021053  149.62
+2     472.0 -3.043541 -3.157307  1.088463  2.288644  1.359805 -1.064823  ...  1.375966 -0.293803  0.279798 -0.145362 -0.252773  0.035764  529.00
+3    7526.0  0.008430  4.137837 -6.238699  6.681959  1.487356 -2.455610  ... -0.539528  0.128940  1.488481  0.507963  0.735822  0.513574    1.00
+
+[4 rows x 30 columns]
+2026-03-08 04:07:30,788 | Router | INFO | Cleaning the data
+2026-03-08 04:07:30,788 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:07:30,788 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:07:30,793 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:07:30,793 | Router | INFO | Data has been cleaned
+2026-03-08 04:07:30,793 | Router | INFO | Predicting the from the data
+2026-03-08 04:07:30,822 | Router | INFO | Completed predictions
+2026-03-08 04:07:30,823 | Router | INFO | adding to the result
+2026-03-08 04:07:30,823 | Router | INFO | Predictions: [{'prediction': 'Fraud', 'fraud_probability': 0.899}, {'prediction': 'Good', 'fraud_probability': 0.0547}, {'prediction': 'Fraud', 'fraud_probability': 0.8558}, {'prediction': 'Fraud', 'fraud_probability': 0.9992}]
+2026-03-08 04:07:30,823 | Router | INFO | Request completed successfully
+2026-03-08 04:07:57,558 | Main App | INFO | Shutting down the application
+2026-03-08 04:07:57,560 | Main App | INFO | Model state has been deleted
+2026-03-08 04:07:58,968 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:58,970 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:58,970 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:58,970 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:59,936 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:59,963 | Main App | INFO | Loading the model
+2026-03-08 04:07:59,963 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:07:59,965 | Model Loader | INFO | Getting the path
+2026-03-08 04:07:59,965 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:07:59,965 | Model Loader | INFO | Loading the model
+2026-03-08 04:07:59,981 | Model Loader | INFO | Model Loaded
+2026-03-08 04:07:59,981 | Main App | INFO | model has been loaded
+2026-03-08 04:09:42,384 | Main App | INFO | Shutting down the application
+2026-03-08 04:09:42,386 | Main App | INFO | Model state has been deleted
+2026-03-08 04:09:43,676 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:09:43,678 | Model Loader | INFO | Getting the path
+2026-03-08 04:09:43,679 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:09:43,679 | Model Loader | INFO | Loading the model
+2026-03-08 04:09:44,497 | Model Loader | INFO | Model Loaded
+2026-03-08 04:09:44,522 | Main App | INFO | Loading the model
+2026-03-08 04:09:44,522 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:09:44,524 | Model Loader | INFO | Getting the path
+2026-03-08 04:09:44,524 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:09:44,524 | Model Loader | INFO | Loading the model
+2026-03-08 04:09:44,541 | Model Loader | INFO | Model Loaded
+2026-03-08 04:09:44,541 | Main App | INFO | model has been loaded
+2026-03-08 04:09:55,873 | Router | INFO | Getting the loaded model
+2026-03-08 04:09:55,874 | Router | INFO | Model retieved from the cache successfully
+2026-03-08 04:09:55,875 | Router | INFO | Data request recieved successfully
+2026-03-08 04:09:55,906 | Router | INFO | requested data:         Time        V1        V2        V3        V4        V5        V6  ...       V23       V24       V25       V26       V27       V28  Amount
+0     406.0 -2.312227  1.951992 -1.609851  3.997906 -0.522188 -1.426545  ... -0.465211  0.320198  0.044519  0.177840  0.261145 -0.143276    0.00
+1  100000.0 -1.359807 -0.072781  2.536347  1.378155 -0.338321  0.462388  ... -0.110474  6.066928  0.128539 -0.189115  0.133558 -0.021053  149.62
+
+[2 rows x 30 columns]
+2026-03-08 04:09:55,907 | Router | INFO | Cleaning the data
+2026-03-08 04:09:55,907 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:09:55,908 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:09:55,911 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:09:55,911 | Router | INFO | Data has been cleaned
+2026-03-08 04:09:55,911 | Router | INFO | Predicting the from the data
+2026-03-08 04:09:55,942 | Router | INFO | Completed predictions
+2026-03-08 04:09:55,942 | Router | INFO | adding to the result
+2026-03-08 04:09:55,942 | Router | INFO | Predictions: [{'prediction': 'Fraud', 'fraud_probability': 0.899}, {'prediction': 'Good', 'fraud_probability': 0.0547}]
+2026-03-08 04:09:55,943 | Router | INFO | Request completed successfully
+2026-03-08 04:13:17,482 | Main App | INFO | Shutting down the application
+2026-03-08 04:13:17,487 | Main App | INFO | Model state has been deleted
+2026-03-08 04:13:19,702 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:13:19,704 | Model Loader | INFO | Getting the path
+2026-03-08 04:13:19,705 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:13:19,705 | Model Loader | INFO | Loading the model
+2026-03-08 04:13:21,483 | Model Loader | INFO | Model Loaded
+2026-03-08 04:13:21,547 | Main App | INFO | Loading the model
+2026-03-08 04:13:21,547 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:13:21,552 | Model Loader | INFO | Getting the path
+2026-03-08 04:13:21,552 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:13:21,552 | Model Loader | INFO | Loading the model
+2026-03-08 04:13:21,624 | Model Loader | INFO | Model Loaded
+2026-03-08 04:13:21,625 | Main App | INFO | model has been loaded
+2026-03-08 04:13:24,061 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:13:24,065 | Model Loader | INFO | Getting the path
+2026-03-08 04:13:24,066 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:13:24,066 | Model Loader | INFO | Loading the model
+2026-03-08 04:13:25,513 | Model Loader | INFO | Model Loaded
+2026-03-08 04:13:25,569 | Main App | INFO | Loading the model
+2026-03-08 04:13:25,569 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:13:25,575 | Model Loader | INFO | Getting the path
+2026-03-08 04:13:25,575 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:13:25,575 | Model Loader | INFO | Loading the model
+2026-03-08 04:13:25,624 | Model Loader | INFO | Model Loaded
+2026-03-08 04:13:25,624 | Main App | INFO | model has been loaded
+2026-03-08 04:16:11,691 | Main App | INFO | Shutting down the application
+2026-03-08 04:16:11,694 | Main App | INFO | Model state has been deleted
+2026-03-08 04:40:50,431 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:40:50,434 | Model Loader | INFO | Getting the path
+2026-03-08 04:40:50,434 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:40:50,435 | Model Loader | INFO | Loading the model
+2026-03-08 04:41:09,514 | Model Loader | INFO | Model Loaded
+2026-03-08 04:41:09,897 | Main App | INFO | Loading the model
+2026-03-08 04:41:09,897 | Model Loader | INFO | Loading the configuration
+2026-03-08 04:41:09,899 | Model Loader | INFO | Getting the path
+2026-03-08 04:41:09,899 | Model Loader | INFO | Path have been successfully retrieved
+2026-03-08 04:41:09,899 | Model Loader | INFO | Loading the model
+2026-03-08 04:41:09,918 | Model Loader | INFO | Model Loaded
+2026-03-08 04:41:09,918 | Main App | INFO | model has been loaded
+2026-03-08 04:41:56,075 | Router | INFO | Getting the loaded model
+2026-03-08 04:41:56,075 | Router | INFO | Model retieved from the cache successfully
+2026-03-08 04:41:56,081 | Router | INFO | Data request recieved successfully
+2026-03-08 04:41:56,131 | Router | INFO | requested data:         Time        V1        V2        V3        V4        V5        V6  ...       V23       V24       V25       V26       V27       V28  Amount
+0     406.0 -2.312227  1.951992 -1.609851  3.997906 -0.522188 -1.426545  ... -0.465211  0.320198  0.044519  0.177840  0.261145 -0.143276    0.00
+1  100000.0 -1.359807 -0.072781  2.536347  1.378155 -0.338321  0.462388  ... -0.110474  6.066928  0.128539 -0.189115  0.133558 -0.021053  149.62
+
+[2 rows x 30 columns]
+2026-03-08 04:41:56,132 | Router | INFO | Cleaning the data
+2026-03-08 04:41:56,132 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:41:56,133 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:41:56,138 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:41:56,139 | Router | INFO | Data has been cleaned
+2026-03-08 04:41:56,139 | Router | INFO | Predicting the from the data
+2026-03-08 04:41:56,170 | Router | INFO | Completed predictions
+2026-03-08 04:41:56,170 | Router | INFO | adding to the result
+2026-03-08 04:41:56,171 | Router | INFO | Predictions: [{'prediction': 'Fraud', 'fraud_probability': 0.899}, {'prediction': 'Good', 'fraud_probability': 0.0547}]
+2026-03-08 04:41:56,171 | Router | INFO | Request completed successfully
+2026-03-08 04:42:05,166 | Main App | INFO | Shutting down the application
+2026-03-08 04:42:05,166 | Main App | INFO | Model state has been deleted

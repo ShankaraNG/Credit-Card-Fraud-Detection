@@ -1,0 +1,742 @@
+2026-03-06 03:47:33,224 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:47:33,225 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:47:33,227 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:47:33,227 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:47:33,227 | Pipeline Runner | INFO | Run type is file
+2026-03-06 03:47:33,227 | Pipeline Runner | INFO | Running in file mode
+2026-03-06 03:47:33,227 | Pipeline Runner | ERROR | Pipeline run has failed: File doesnt exists in the path
+2026-03-06 03:47:33,227 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 03:47:52,356 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:47:52,357 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 03:47:52,359 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 03:47:52,359 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 03:47:52,360 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 03:47:52,360 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 03:47:52,360 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 03:47:52,360 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 03:47:52,360 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 03:47:52,916 | Data Extraction | ERROR | Failed to extract data: ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2026-03-06 03:47:52,917 | Data Extraction | ERROR | Failed to close the connection
+2026-03-06 03:47:52,917 | Pipeline Runner | ERROR | Pipeline run has failed: Could not extract the data from the database
+2026-03-06 03:47:52,917 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 03:48:34,963 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:48:34,964 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:48:34,966 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:48:34,967 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:48:34,967 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 03:48:34,967 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 03:48:34,967 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 03:48:34,967 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 03:48:34,967 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 03:48:34,967 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 03:48:34,967 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 03:48:34,967 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 03:48:34,967 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 03:48:34,968 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 03:48:37,805 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 03:48:39,019 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 03:48:40,172 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 03:48:41,349 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 03:48:42,483 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 03:48:43,324 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 03:48:43,359 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 03:48:43,360 | Data Extraction | ERROR | Failed to close the connection
+2026-03-06 03:48:43,360 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 03:48:43,360 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 03:48:44,395 | Pipeline Runner | INFO | Data has been read
+2026-03-06 03:48:44,396 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 03:48:44,396 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 03:48:44,451 | Preprocessing | ERROR | Failed to Clean the data: 'Class'
+2026-03-06 03:48:44,457 | Pipeline Runner | ERROR | Pipeline run has failed: Unable to clean the data file
+2026-03-06 03:48:44,461 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 03:56:28,170 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:56:28,171 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:56:28,173 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:56:28,173 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:56:28,173 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 03:56:28,173 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 03:56:28,173 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 03:56:28,174 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 03:56:28,174 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 03:56:28,174 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 03:56:28,174 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 03:56:28,174 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 03:56:28,174 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 03:56:28,175 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 03:56:30,169 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 03:56:31,398 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 03:56:32,544 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 03:56:33,731 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 03:56:34,879 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 03:56:35,716 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 03:56:35,752 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 03:56:35,752 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 03:56:35,753 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 03:56:36,804 | Pipeline Runner | INFO | Data has been read
+2026-03-06 03:56:36,804 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 03:56:36,804 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 03:56:36,858 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 03:56:36,858 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 03:56:36,858 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 03:56:36,859 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 03:56:36,859 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 03:56:36,860 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 03:56:36,860 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 03:56:36,989 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 03:56:36,989 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 03:56:36,989 | Pipeline Builder | INFO | Loading configs
+2026-03-06 03:56:36,992 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 03:56:36,992 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 03:56:36,992 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 03:56:36,993 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 03:56:36,993 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 03:56:36,993 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 03:56:36,994 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 03:56:36,995 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 03:56:36,995 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 03:56:36,995 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 03:56:36,995 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 03:56:36,996 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 03:56:36,996 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 03:56:36,997 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 03:56:36,997 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 03:56:36,998 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 03:56:36,998 | Training | INFO | Loading the configs
+2026-03-06 03:56:37,002 | Training | INFO | Configs loaded successfully
+2026-03-06 03:56:37,002 | Training | INFO | Starting to train the model
+2026-03-06 03:56:37,088 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,353 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,434 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,512 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,574 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,639 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,704 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,769 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,847 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,928 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:37,988 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,064 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,142 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,202 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,280 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,350 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,425 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,503 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,571 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,640 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,703 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,780 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,858 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,919 | Preprocessing | ERROR | Failed to convert time to hour: 'Time'
+2026-03-06 03:56:38,930 | Training | ERROR | Testing of the model failed: 
+All the 24 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+24 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\model_selection\_validation.py", line 833, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\imblearn\pipeline.py", line 514, in fit
+    Xt, yt = self._fit(X, y, routed_params, raw_params=params)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\imblearn\pipeline.py", line 426, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~^
+        cloned_transformer,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        params=step_params,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\joblib\memory.py", line 326, in __call__
+    return self.func(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\imblearn\pipeline.py", line 1379, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **params.get("fit_transform", {}))
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\compose\_column_transformer.py", line 986, in fit_transform
+    X = _check_X(X)
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\compose\_column_transformer.py", line 1343, in _check_X
+    return check_array(X, ensure_all_finite="allow-nan", dtype=object)
+  File "C:\Users\Shankar\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 1037, in check_array
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Expected 2D array, got scalar array instead:
+array=None.
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+
+2026-03-06 03:56:38,931 | Pipeline Runner | ERROR | Pipeline run has failed: best_model not found
+2026-03-06 03:56:38,948 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 03:57:16,331 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:57:16,331 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:57:16,334 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:57:16,334 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:57:16,334 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 03:57:16,334 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 03:57:16,334 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 03:57:16,335 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 03:57:16,335 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 03:57:16,335 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 03:57:16,335 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 03:57:16,336 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 03:57:16,336 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 03:57:16,336 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 03:57:17,893 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 03:57:19,091 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 03:57:20,245 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 03:57:21,449 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 03:57:22,620 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 03:57:23,460 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 03:57:23,500 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 03:57:23,500 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 03:57:23,500 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 03:57:24,580 | Pipeline Runner | INFO | Data has been read
+2026-03-06 03:57:24,580 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 03:57:24,581 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 03:57:24,633 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 03:57:24,634 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 03:57:24,634 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 03:57:24,634 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 03:57:24,634 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 03:57:24,635 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 03:57:24,636 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 03:57:24,768 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 03:57:24,768 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 03:57:24,768 | Pipeline Builder | INFO | Loading configs
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 03:57:24,771 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 03:57:24,772 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 03:57:24,773 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 03:57:24,773 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 03:57:24,773 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 03:57:24,773 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 03:57:24,773 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 03:57:24,773 | Training | INFO | Loading the configs
+2026-03-06 03:57:24,776 | Training | INFO | Configs loaded successfully
+2026-03-06 03:57:24,776 | Training | INFO | Starting to train the model
+2026-03-06 03:59:54,215 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 03:59:54,216 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 03:59:54,218 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 03:59:54,218 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 03:59:54,218 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 03:59:54,218 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 03:59:54,219 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 03:59:54,219 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 03:59:54,219 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 03:59:54,219 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 03:59:54,219 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 03:59:54,219 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 03:59:54,219 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 03:59:54,220 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 03:59:55,746 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 03:59:56,938 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 03:59:58,082 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 03:59:59,308 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 04:00:00,466 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 04:00:01,307 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 04:00:01,343 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 04:00:01,343 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 04:00:01,343 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 04:00:02,463 | Pipeline Runner | INFO | Data has been read
+2026-03-06 04:00:02,463 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 04:00:02,464 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 04:00:02,527 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 04:00:02,528 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 04:00:02,528 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 04:00:02,528 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 04:00:02,528 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 04:00:02,531 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 04:00:02,531 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 04:00:02,670 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 04:00:02,671 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 04:00:02,671 | Pipeline Builder | INFO | Loading configs
+2026-03-06 04:00:02,674 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 04:00:02,674 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 04:00:02,674 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 04:00:02,674 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 04:00:02,675 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 04:00:02,676 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 04:00:02,676 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 04:00:02,676 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 04:00:02,676 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 04:00:02,676 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 04:00:02,677 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 04:00:02,677 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 04:00:02,677 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 04:00:02,677 | Training | INFO | Loading the configs
+2026-03-06 04:00:02,680 | Training | INFO | Configs loaded successfully
+2026-03-06 04:00:02,681 | Training | INFO | Starting to train the model
+2026-03-06 04:02:57,161 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 04:02:57,161 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 04:02:57,163 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 04:02:57,164 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 04:02:57,164 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 04:02:57,164 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 04:02:57,164 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 04:02:57,164 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 04:02:57,164 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 04:02:57,165 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 04:02:57,166 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 04:02:57,166 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 04:02:57,166 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 04:02:57,166 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 04:02:59,329 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 04:03:00,585 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 04:03:01,792 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 04:03:03,015 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 04:03:04,207 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 04:03:05,061 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 04:03:05,098 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 04:03:05,099 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 04:03:05,099 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 04:03:06,173 | Pipeline Runner | INFO | Data has been read
+2026-03-06 04:03:06,174 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 04:03:06,174 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 04:03:06,240 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 04:03:06,240 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 04:03:06,240 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 04:03:06,240 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 04:03:06,240 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 04:03:06,242 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 04:03:06,243 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 04:03:06,380 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 04:03:06,380 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 04:03:06,381 | Pipeline Builder | INFO | Loading configs
+2026-03-06 04:03:06,384 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 04:03:06,384 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 04:03:06,384 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 04:03:06,384 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 04:03:06,384 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 04:03:06,385 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 04:03:06,385 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 04:03:06,385 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 04:03:06,385 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 04:03:06,385 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 04:03:06,386 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 04:03:06,387 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 04:03:06,387 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 04:03:06,387 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 04:03:06,387 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 04:03:06,387 | Training | INFO | Loading the configs
+2026-03-06 04:03:06,390 | Training | INFO | Configs loaded successfully
+2026-03-06 04:03:06,390 | Training | INFO | Starting to train the model
+2026-03-06 04:28:48,580 | Training | INFO | Training has been completed
+2026-03-06 04:28:48,634 | Training | INFO | Loading the model save path configurations
+2026-03-06 04:28:48,634 | Training | INFO | Loading the configurations completed
+2026-03-06 04:28:48,635 | Training | INFO | Getting the best model from the trained grid search CV
+2026-03-06 04:28:48,635 | Training | INFO | Saving the best model
+2026-03-06 04:28:48,707 | Training | INFO | Model has been saved
+2026-03-06 04:28:48,708 | Pipeline Runner | INFO | Model training has been completed and we have got the best model
+2026-03-06 04:28:48,708 | Pipeline Runner | INFO | Proceeding to test the model
+2026-03-06 04:28:48,709 | Testing | INFO | Loading the configs
+2026-03-06 04:28:48,724 | Testing | INFO | Configs loaded successfully
+2026-03-06 04:28:48,724 | Testing | INFO | Proceeding to test the model
+2026-03-06 04:28:48,724 | Testing | INFO | Predicting the probability
+2026-03-06 04:28:49,074 | Testing | INFO | Probability predicting completed
+2026-03-06 04:28:49,075 | Testing | INFO | Predicting the Features
+2026-03-06 04:28:49,393 | Testing | INFO | Feature prediction completed
+2026-03-06 04:28:49,393 | Testing | INFO | Model Testing completed successfully
+2026-03-06 04:28:49,393 | Testing | INFO | Loading the artifactory configuration
+2026-03-06 04:28:49,393 | Testing | INFO | Configuration loaded successfully
+2026-03-06 04:28:49,394 | Testing | INFO | Creating the paths
+2026-03-06 04:28:49,394 | Testing | INFO | Paths have been created successfully
+2026-03-06 04:28:49,394 | Testing | INFO | Plotting the confusion matrix
+2026-03-06 04:28:50,763 | Testing | INFO | Confusion matrix has been plotted successfully
+2026-03-06 04:28:50,763 | Testing | INFO | Confusion matrix have been saved
+2026-03-06 04:28:50,763 | Testing | INFO | Creating a classificatin report
+2026-03-06 04:28:50,776 | Testing | INFO | Classification report created and saved successfully
+2026-03-06 04:28:50,777 | Testing | INFO | Creating a Roc_auc_score report
+2026-03-06 04:28:50,787 | Testing | INFO | Roc_auc_score report created and saved successfully
+2026-03-06 04:28:50,787 | Testing | INFO | Creating a Recall score report
+2026-03-06 04:28:50,792 | Testing | INFO | Recall Score report created and saved successfully
+2026-03-06 04:28:50,793 | Testing | INFO | Proceeding to test a good sample
+2026-03-06 04:28:50,793 | Testing | INFO | Creating a good sample data
+2026-03-06 04:28:50,795 | Testing | INFO | Testing out a good sample
+2026-03-06 04:28:50,795 | Preprocessing | ERROR | Failed to convert time to hour: 'TIME'
+2026-03-06 04:28:50,796 | Testing | ERROR | Testing of the model failed: Expected 2D array, got scalar array instead:
+array=None.
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+2026-03-06 04:28:50,796 | Pipeline Runner | ERROR | Pipeline run has failed: best_model not found
+2026-03-06 04:28:50,807 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 04:40:20,984 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 04:40:20,985 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 04:40:20,987 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 04:40:20,988 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 04:40:20,988 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 04:40:20,988 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 04:40:20,988 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 04:40:20,988 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 04:40:20,988 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 04:40:20,989 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 04:40:20,989 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 04:40:20,989 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 04:40:20,989 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 04:40:20,989 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 04:40:24,120 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 04:40:26,168 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 04:40:28,157 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 04:40:30,257 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 04:40:32,559 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 04:40:33,999 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 04:40:34,067 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 04:40:34,067 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 04:40:34,068 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 04:40:35,895 | Pipeline Runner | INFO | Data has been read
+2026-03-06 04:40:35,896 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 04:40:35,896 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 04:40:35,960 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 04:40:35,960 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 04:40:35,960 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 04:40:35,961 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 04:40:35,961 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 04:40:35,962 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 04:40:35,962 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 04:40:36,167 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 04:40:36,168 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 04:40:36,168 | Pipeline Builder | INFO | Loading configs
+2026-03-06 04:40:36,173 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 04:40:36,173 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 04:40:36,173 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 04:40:36,173 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 04:40:36,174 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 04:40:36,174 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 04:40:36,174 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 04:40:36,174 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 04:40:36,174 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 04:40:36,175 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 04:40:36,176 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 04:40:36,176 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 04:40:36,176 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 04:40:36,176 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 04:40:36,176 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 04:40:36,176 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 04:40:36,177 | Training | INFO | Loading the configs
+2026-03-06 04:40:36,181 | Training | INFO | Configs loaded successfully
+2026-03-06 04:40:36,182 | Training | INFO | Starting to train the model
+2026-03-06 05:16:34,441 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 05:16:34,444 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 05:16:34,446 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 05:16:34,446 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 05:16:34,446 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 05:16:34,446 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 05:16:34,447 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 05:16:34,447 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 05:16:34,447 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 05:16:34,447 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 05:16:34,447 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 05:16:34,447 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 05:16:34,447 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 05:16:34,447 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 05:16:40,220 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 05:16:41,508 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 05:16:42,687 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 05:16:43,963 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 05:16:45,143 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 05:16:45,982 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 05:16:46,020 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 05:16:46,020 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 05:16:46,020 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 05:16:47,032 | Pipeline Runner | INFO | Data has been read
+2026-03-06 05:16:47,033 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 05:16:47,033 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 05:16:47,083 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 05:16:47,084 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 05:16:47,084 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 05:16:47,084 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 05:16:47,084 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 05:16:47,087 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 05:16:47,088 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 05:16:47,236 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 05:16:47,236 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 05:16:47,236 | Pipeline Builder | INFO | Loading configs
+2026-03-06 05:16:47,239 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 05:16:47,239 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 05:16:47,239 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 05:16:47,239 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 05:16:47,240 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 05:16:47,241 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 05:16:47,241 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 05:16:47,241 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 05:16:47,241 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 05:16:47,241 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 05:16:47,241 | Training | INFO | Loading the configs
+2026-03-06 05:16:47,244 | Training | INFO | Configs loaded successfully
+2026-03-06 05:16:47,244 | Training | INFO | Starting to train the model
+2026-03-06 05:37:59,438 | Training | ERROR | Testing of the model failed: Unable to allocate 52.0 MiB for an array with shape (227057, 30) and data type float64
+2026-03-06 05:37:59,477 | Pipeline Runner | ERROR | Pipeline run has failed: best_model not found
+2026-03-06 05:37:59,488 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 16:39:11,245 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 16:39:11,245 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 16:39:11,248 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 16:39:11,248 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 16:39:11,248 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 16:39:11,248 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 16:39:11,248 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 16:39:11,249 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 16:39:11,249 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 16:39:11,249 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 16:39:11,249 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 16:39:11,250 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 16:39:11,250 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 16:39:11,250 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 16:39:15,524 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 16:39:16,862 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 16:39:18,206 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 16:39:19,578 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 16:39:20,884 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 16:39:21,786 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 16:39:21,829 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 16:39:21,829 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 16:39:21,830 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 16:39:23,010 | Pipeline Runner | INFO | Data has been read
+2026-03-06 16:39:23,011 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 16:39:23,011 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 16:39:23,076 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 16:39:23,077 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 16:39:23,077 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 16:39:23,077 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 16:39:23,077 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 16:39:23,081 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 16:39:23,081 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 16:39:23,218 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 16:39:23,219 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 16:39:23,220 | Pipeline Builder | INFO | Loading configs
+2026-03-06 16:39:23,222 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 16:39:23,222 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 16:39:23,223 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 16:39:23,224 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 16:39:23,224 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 16:39:23,224 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 16:39:23,224 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 16:39:23,224 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 16:39:23,224 | Training | INFO | Loading the configs
+2026-03-06 16:39:23,226 | Training | INFO | Configs loaded successfully
+2026-03-06 16:39:23,226 | Training | INFO | Starting to train the model
+2026-03-06 17:31:05,774 | Training | INFO | Training has been completed
+2026-03-06 17:31:05,850 | Training | INFO | Loading the model save path configurations
+2026-03-06 17:31:05,853 | Training | INFO | Loading the configurations completed
+2026-03-06 17:31:05,857 | Training | INFO | Getting the best model from the trained grid search CV
+2026-03-06 17:31:05,857 | Training | INFO | Saving the best model
+2026-03-06 17:31:05,986 | Training | INFO | Model has been saved
+2026-03-06 17:31:05,992 | Pipeline Runner | INFO | Model training has been completed and we have got the best model
+2026-03-06 17:31:05,995 | Pipeline Runner | INFO | Proceeding to test the model
+2026-03-06 17:31:05,998 | Testing | INFO | Loading the configs
+2026-03-06 17:31:06,054 | Testing | INFO | Configs loaded successfully
+2026-03-06 17:31:06,055 | Testing | INFO | Proceeding to test the model
+2026-03-06 17:31:06,055 | Testing | INFO | Predicting the probability
+2026-03-06 17:31:06,787 | Testing | INFO | Probability predicting completed
+2026-03-06 17:31:06,787 | Testing | INFO | Predicting the Features
+2026-03-06 17:31:07,441 | Testing | INFO | Feature prediction completed
+2026-03-06 17:31:07,441 | Testing | INFO | Model Testing completed successfully
+2026-03-06 17:31:07,442 | Testing | INFO | Loading the artifactory configuration
+2026-03-06 17:31:07,443 | Testing | INFO | Configuration loaded successfully
+2026-03-06 17:31:07,443 | Testing | INFO | Creating the paths
+2026-03-06 17:31:07,445 | Testing | INFO | Paths have been created successfully
+2026-03-06 17:31:07,445 | Testing | INFO | Plotting the confusion matrix
+2026-03-06 17:31:10,138 | Testing | INFO | Classification report created and saved successfully
+2026-03-06 17:31:10,139 | Testing | INFO | Creating a Roc_auc_score report
+2026-03-06 17:31:10,158 | Testing | INFO | Roc_auc_score report created and saved successfully
+2026-03-06 17:31:10,159 | Testing | INFO | Creating a Recall score report
+2026-03-06 17:31:10,170 | Testing | INFO | Recall Score report created and saved successfully
+2026-03-06 17:31:10,170 | Testing | INFO | Proceeding to test a good sample
+2026-03-06 17:31:10,170 | Testing | INFO | Creating a good sample data
+2026-03-06 17:31:10,175 | Testing | INFO | Testing out a good sample
+2026-03-06 17:31:10,212 | Testing | INFO | Testing of a good sample has been completed
+2026-03-06 17:31:10,213 | Testing | INFO | Proceeding with the sample test for a bad sample
+2026-03-06 17:31:10,213 | Testing | INFO | Testing of a bad sample
+2026-03-06 17:31:10,214 | Testing | INFO | Testing of a bad sample completed
+2026-03-06 17:31:10,249 | Testing | INFO | Saving all the test results
+2026-03-06 17:31:10,252 | Testing | INFO | Plotting the tree
+2026-03-06 17:31:10,412 | Testing | ERROR | Testing of the model failed: 'Pipeline' object has no attribute 'estimators_'
+2026-03-06 17:31:10,413 | Pipeline Runner | ERROR | Pipeline run has failed: best_model not found
+2026-03-06 17:31:10,441 | Main Runner | INFO | Model Training Pipeline Ended
+2026-03-06 23:33:53,395 | Main Runner | INFO | Starting the Model training Pipeline
+2026-03-06 23:33:53,396 | Pipeline Runner | INFO | Loading the configurations
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Configurations loadded successfully
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Getting the run type
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Run type is DBRUN
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Fetching the database run configuration
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Fetched all the database configurations
+2026-03-06 23:33:53,398 | Pipeline Runner | INFO | Extracting the data from the database
+2026-03-06 23:33:53,398 | Data Extraction | INFO | Checking for the data path directory
+2026-03-06 23:33:53,399 | Data Extraction | INFO | Checking for the data path directory exists
+2026-03-06 23:33:53,399 | Data Extraction | INFO | Getting the SQL query
+2026-03-06 23:33:53,399 | Data Extraction | INFO | SQL query retrieved successfully
+2026-03-06 23:33:53,399 | Data Extraction | INFO | Creating the data base connection string
+2026-03-06 23:33:53,399 | Data Extraction | INFO | Data base connection string formed successfully
+2026-03-06 23:33:55,685 | Data Extraction | INFO | Progress: 50000 rows extracted
+2026-03-06 23:33:56,870 | Data Extraction | INFO | Progress: 100000 rows extracted
+2026-03-06 23:33:58,008 | Data Extraction | INFO | Progress: 150000 rows extracted
+2026-03-06 23:33:59,189 | Data Extraction | INFO | Progress: 200000 rows extracted
+2026-03-06 23:34:00,332 | Data Extraction | INFO | Progress: 250000 rows extracted
+2026-03-06 23:34:01,160 | Data Extraction | INFO | Progress: 284807 rows extracted
+2026-03-06 23:34:01,199 | Data Extraction | INFO | Extraction successfully completed. Total rows: 284807
+2026-03-06 23:34:01,199 | Pipeline Runner | INFO | Data Extraction completed successfully
+2026-03-06 23:34:01,199 | Pipeline Runner | INFO | Reading the data from the path
+2026-03-06 23:34:02,221 | Pipeline Runner | INFO | Data has been read
+2026-03-06 23:34:02,221 | Pipeline Runner | INFO | Proceeding to clean the data
+2026-03-06 23:34:02,221 | Preprocessing | INFO | Cleaning the data file
+2026-03-06 23:34:02,277 | Preprocessing | INFO | Completed cleaning the file
+2026-03-06 23:34:02,278 | Pipeline Runner | INFO | Data has been cleaned
+2026-03-06 23:34:02,278 | Pipeline Runner | INFO | Fetching the feature that needs to be predicted
+2026-03-06 23:34:02,278 | Pipeline Runner | INFO | Prediction feature fetched successfully
+2026-03-06 23:34:02,278 | Pipeline Runner | INFO | Dividing the data between the features which needs to be predicted and the one which are present in the data
+2026-03-06 23:34:02,279 | Pipeline Runner | INFO | Feature separation copmpleted
+2026-03-06 23:34:02,279 | Pipeline Runner | INFO | Splitting the data for training and test
+2026-03-06 23:34:02,405 | Pipeline Runner | INFO | Test Train split completed
+2026-03-06 23:34:02,406 | Pipeline Runner | INFO | Proceeding to build the pipeline
+2026-03-06 23:34:02,406 | Pipeline Builder | INFO | Loading configs
+2026-03-06 23:34:02,408 | Pipeline Builder | INFO | Configs loaded successfully
+2026-03-06 23:34:02,408 | Pipeline Builder | INFO | Calling the function time to hour from the preprocessing file
+2026-03-06 23:34:02,408 | Pipeline Builder | INFO | Fucntion Transformer created
+2026-03-06 23:34:02,408 | Pipeline Builder | INFO | Getting the Scaling columns
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Scaling column retrieved successfully
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Building the pipeline
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Added standard scaler
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Adding the column transformer to scale and passthrough
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Completed building the preprocessor pipeline
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Building the complete full pipeline
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Pipeline build completed
+2026-03-06 23:34:02,409 | Pipeline Builder | INFO | Getting the parameters for parameters grid
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Parameters retrieved successfully
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Building the parameter grid
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Parameter grid build is successfull
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Fetching the grid serach cv parameters
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Fetched the grid serach cv parameter
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Building the grid serach CV
+2026-03-06 23:34:02,410 | Pipeline Builder | INFO | Grid search CV built successfully
+2026-03-06 23:34:02,410 | Pipeline Runner | INFO | Pipeline build successful
+2026-03-06 23:34:02,411 | Pipeline Runner | INFO | Proceeding to train the model
+2026-03-06 23:34:02,411 | Training | INFO | Loading the configs
+2026-03-06 23:34:02,414 | Training | INFO | Configs loaded successfully
+2026-03-06 23:34:02,414 | Training | INFO | Starting to train the model
+2026-03-07 00:20:05,009 | Training | INFO | Training has been completed
+2026-03-07 00:20:05,069 | Training | INFO | Loading the model save path configurations
+2026-03-07 00:20:05,069 | Training | INFO | Loading the configurations completed
+2026-03-07 00:20:05,070 | Training | INFO | Getting the best model from the trained grid search CV
+2026-03-07 00:20:05,070 | Training | INFO | Saving the best model
+2026-03-07 00:20:05,157 | Training | INFO | Model has been saved
+2026-03-07 00:20:05,158 | Pipeline Runner | INFO | Model training has been completed and we have got the best model
+2026-03-07 00:20:05,159 | Pipeline Runner | INFO | Proceeding to test the model
+2026-03-07 00:20:05,159 | Testing | INFO | Loading the configs
+2026-03-07 00:20:05,201 | Testing | INFO | Configs loaded successfully
+2026-03-07 00:20:05,201 | Testing | INFO | Proceeding to test the model
+2026-03-07 00:20:05,202 | Testing | INFO | Predicting the probability
+2026-03-07 00:20:05,769 | Testing | INFO | Probability predicting completed
+2026-03-07 00:20:05,770 | Testing | INFO | Predicting the Features
+2026-03-07 00:20:06,268 | Testing | INFO | Feature prediction completed
+2026-03-07 00:20:06,269 | Testing | INFO | Model Testing completed successfully
+2026-03-07 00:20:06,269 | Testing | INFO | Loading the artifactory configuration
+2026-03-07 00:20:06,277 | Testing | INFO | Configuration loaded successfully
+2026-03-07 00:20:06,277 | Testing | INFO | Creating the paths
+2026-03-07 00:20:06,279 | Testing | INFO | Paths have been created successfully
+2026-03-07 00:20:06,279 | Testing | INFO | Plotting the confusion matrix
+2026-03-07 00:20:08,267 | Testing | INFO | Classification report created and saved successfully
+2026-03-07 00:20:08,268 | Testing | INFO | Creating a Roc_auc_score report
+2026-03-07 00:20:08,285 | Testing | INFO | Roc_auc_score report created and saved successfully
+2026-03-07 00:20:08,285 | Testing | INFO | Creating a Recall score report
+2026-03-07 00:20:08,300 | Testing | INFO | Recall Score report created and saved successfully
+2026-03-07 00:20:08,300 | Testing | INFO | Proceeding to test a good sample
+2026-03-07 00:20:08,300 | Testing | INFO | Creating a good sample data
+2026-03-07 00:20:08,310 | Testing | INFO | Testing out a good sample
+2026-03-07 00:20:08,336 | Testing | INFO | Testing of a good sample has been completed
+2026-03-07 00:20:08,336 | Testing | INFO | Proceeding with the sample test for a bad sample
+2026-03-07 00:20:08,337 | Testing | INFO | Testing of a bad sample
+2026-03-07 00:20:08,338 | Testing | INFO | Testing of a bad sample completed
+2026-03-07 00:20:08,366 | Testing | INFO | Saving all the test results
+2026-03-07 00:20:08,370 | Testing | INFO | Plotting the tree
+2026-03-07 00:20:08,727 | Testing | INFO | Tree has been plotted and saved
+2026-03-07 00:20:08,727 | Pipeline Runner | INFO | Model testing has been completed
+2026-03-07 00:20:08,727 | Pipeline Runner | INFO | Pipeline has ran successfully
+2026-03-07 00:20:08,743 | Main Runner | INFO | Model Training Pipeline Ended
+
+2026-03-08 04:05:13,135 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:05:13,137 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:05:13,145 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:07:30,788 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:07:30,788 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:07:30,793 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:09:55,907 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:09:55,908 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:09:55,911 | Preprocessing | INFO | preprocessing completed
+2026-03-08 04:41:56,132 | Preprocessing | INFO | Capitalizing the columns
+2026-03-08 04:41:56,133 | Preprocessing | INFO | Making sure the numeric column are numers itself
+2026-03-08 04:41:56,138 | Preprocessing | INFO | preprocessing completed

@@ -1,0 +1,26 @@
+[project]
+name = "frauddetectionpipeline"
+version = "0.1.0"
+description = "Fraud detection API using FastAPI and ML"
+authors = [
+    {name = "Shankara Narayana N G", email = "shankarnarayana92@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pandas",
+    "scikit-learn",
+    "imbalanced-learn",
+    "joblib",
+    "pydantic",
+    "matplotlib",
+    "pyyaml"
+]
+
+[tool.poetry]
+package-mode = false  # <--- Add this line to fix the error
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

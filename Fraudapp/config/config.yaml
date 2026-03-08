@@ -1,0 +1,19 @@
+applicationurl:
+  API_URL: http://127.0.0.1:8000/v1/predict
+
+sql:
+  tablename: frauddetection
+
+logging:
+  path: logs/
+  application: application.log
+  level: INFO
+
+kafka:
+  server: localhost
+  port: 9092
+  topic: transactions
+
+data:
+  file: results.csv
+  path: data/
