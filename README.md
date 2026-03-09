@@ -176,8 +176,3 @@ poetry run python -m app.main
 
 For further details on setup, configuration, or usage — please contact Shankara directly.
 
----
-
-## 📄 License
-
-MIT License
