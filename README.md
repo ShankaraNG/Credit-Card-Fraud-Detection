@@ -1,14 +1,14 @@
-# 🔍 Credit Card Fraud Detection Pipeline
+# Credit Card Fraud Detection Pipeline
 
 A machine learning pipeline and API for detecting fraudulent credit card transactions in real-time — developed by Shankara Narayana N G.
 
-🌐 **Live Demo:** [https://credit-card-fraud-detection-dua2.onrender.com](https://credit-card-fraud-detection-dua2.onrender.com)
+**Live Demo:** [https://credit-card-fraud-detection-dua2.onrender.com](https://credit-card-fraud-detection-dua2.onrender.com)
 
-> ⏳ The application is hosted on Render's free tier. It may take approximately **1 minute to wake up** when you first hit the URL. Please be patient!
+> The application is hosted on Render's free tier. It may take approximately **1 minute to wake up** when you first hit the URL. Please be patient!
 
 ---
 
-## 📖 Overview
+## Overview
 
 The Fraud Detection Pipeline uses a **Random Forest classifier** to determine whether a given transaction is **fraudulent or legitimate**. It supports two modes of operation — direct file-based training and database-backed training — and exposes a FastAPI endpoint for real-time predictions.
 
@@ -16,12 +16,12 @@ Additionally, a **Kafka-based streaming application** is included for event-driv
 
 The project is split into two independent applications:
 
-- 🤖 **Fraud Detection API** — Trains the ML model and serves predictions via FastAPI
-- 📨 **Fraud Kafka App** — A Kafka consumer/producer application that streams transactions to the prediction API in real time
+- **Fraud Detection API** — Trains the ML model and serves predictions via FastAPI
+- **Fraud Kafka App** — A Kafka consumer/producer application that streams transactions to the prediction API in real time
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -36,13 +36,13 @@ The project is split into two independent applications:
 | Dependency Management | Poetry |
 | Notebook / Experimentation | `frauddetection.ipynb` |
 
-> 📓 Other ML models were also tested and evaluated on the dataset. These experiments are documented in `frauddetection.ipynb`.
+> Other ML models were also tested and evaluated on the dataset. These experiments are documented in `frauddetection.ipynb`.
 
 ---
 
-## 📦 Part 1 — Fraud Detection API
+## Part 1 — Fraud Detection API
 
-### ⚙️ Prerequisites
+### Prerequisites
 
 - Python 3.11 or above
 - [Poetry](https://python-poetry.org/docs/#installation) installed
@@ -76,7 +76,7 @@ run:
 
 ---
 
-### 🤖 Step 1 — Build the ML Model
+### Step 1 — Build the ML Model
 
 Train and save the Random Forest model locally before starting the API:
 
@@ -84,11 +84,11 @@ Train and save the Random Forest model locally before starting the API:
 poetry run python -m mlbuild.main
 ```
 
-> ⚠️ This step must be completed before running the API. The application depends on the saved model to serve predictions.
+> This step must be completed before running the API. The application depends on the saved model to serve predictions.
 
 ---
 
-### ▶️ Step 2 — Run the FastAPI Application
+### Step 2 — Run the FastAPI Application
 
 ```bash
 poetry run uvicorn app.main:app --host 0.0.0.0 --port 8000
@@ -98,7 +98,7 @@ The application will be available at `http://localhost:8000`.
 
 ---
 
-### 🔗 API Endpoints
+### API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -108,18 +108,18 @@ Send your transaction details as a JSON body via Postman or any REST client to `
 
 ---
 
-## 📨 Part 2 — Fraud Kafka Streaming App
+## Part 2 — Fraud Kafka Streaming App
 
 A separate Kafka-based application that streams transactions to the Fraud Detection API in real time.
 
-### ⚙️ Prerequisites
+### Prerequisites
 
 - Apache Kafka installed and available locally
 - The **Fraud Detection API** (Part 1) running on `http://127.0.0.1:8000`
 
 ---
 
-### 🔧 Kafka Setup (Windows)
+### Kafka Setup (Windows)
 
 Run each of the following in a separate terminal in order:
 
@@ -141,7 +141,7 @@ bin\windows\kafka-topics.bat --create --topic transactions --bootstrap-server lo
 
 ---
 
-### 🔧 Configure the Backend URL
+### Configure the Backend URL
 
 In the Kafka app config file, set the URL of the running Fraud Detection API:
 
@@ -159,7 +159,7 @@ cd Fraudapp
 poetry install
 ```
 
-### ▶️ Run the Kafka Application
+### Run the Kafka Application
 
 Once Kafka is running and the topic is created:
 
@@ -169,10 +169,10 @@ poetry run python -m app.main
 
 ---
 
-## 👤 Author
+## Author
 
 **Shankara Narayana N G**
-📧 shankarnarayana92@gmail.com
+shankarnarayana92@gmail.com
 
 For further details on setup, configuration, or usage — please contact Shankara directly.
 
